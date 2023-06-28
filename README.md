@@ -50,6 +50,16 @@ write('Hello World!', rate=1)
 
 ## Changelog
 
+### v1.0.0 (29/06/2023)
+
+### Feature
+
+- First major update of `pywriter`
+- Added function to print output with typewriter effect in reverse.
+- Also added function to print output with typewriter effect.
+  In a way that it deletes some part of the text to some index and prints another text to replace the previous text.
+
+
 ### v0.1.1 (21/04/2023)
 
 ### Feature
