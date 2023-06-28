@@ -1,12 +1,14 @@
 import setuptools
 
 
-with open("README.md", "r") as fh:
+with open('README.md', 'r', encoding='utf-8') as fh:
     long_description = fh.read()
 
-VERSION = '0.0.1'
+
+
+VERSION = '1.0.0'
 DESCRIPTION = 'Typewriter effect for python'
-LONG_DESCRIPTION = 'A package that allows you to print text in your termimal in the classic typewriter style.'
+LONG_DESCRIPTION = long_description
 
 # Setting up
 setuptools.setup(
@@ -20,15 +22,18 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     include_package_data=True,
     url= "https://github.com/amarquaye/pywriter",
-    # install_requires=['time'],
     python_requires='>=3.7',
     py_modules=['pywriter'],
-    keywords=['python', 'pywriter', 'writer', 'typewriter', 'typewritereffect'],
+    keywords=['python', 'pywriter', 'type', 'writer', 'typewriter', 'typewritereffect'],
     classifiers=[
-        "Development Status :: 1 - Planning",
+        "Development Status :: 6 - Mature",
         "Intended Audience :: Developers",
+        "Environment :: Console",
+        "Topic :: Printing",
+        "Topic :: Text Processing",
+        "Topic :: Terminals",
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: GNU Affero General Public License v3",
         "Operating System :: OS Independent",
         
     ]
