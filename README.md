@@ -19,6 +19,10 @@ import pywriter
 # returns 'Hello World!' character by character at the rate of one character per second
 pywriter.write('Hello World!', rate=1)
 
+# Let's introduce my latest features
+pywriter.writer('Hello World!', rate=1)
+pywriter.typewriter('Hello World!', new="Jesse", idx=6, rate=1)
+
 
 
 # You can decide to exclude the rate argument.
@@ -29,15 +33,20 @@ pywriter.write('Hello World!', rate=1)
 
 ## Alternate Usage
 ```python
-from pywriter import write
+from pywriter import write, writer, typewriter
 
 # returns 'Hello World!' character by character at the rate of one character per second
 write('Hello World!', rate=1)
 
+# Let's introduce my latest features
+writer('Hello World!', rate=1)
+typewriter('Hello World!', new="Jesse", idx=6, rate=1)
 
 
-# However, it is recommended that you use pywriter.write instead of using the write function directly.
-# Since this will help prevent any conflict in case there is another python module which also has a write function.
+# However, it is recommended that you use pywriter.write
+#instead of using the write function directly.
+# Since this will help prevent any conflict in case there
+#is another python module which also has a write function.
 
 ```
 <br/>
@@ -56,8 +65,10 @@ write('Hello World!', rate=1)
 
 - First major update of `pywriter`
 - Added function to print output with typewriter effect in reverse.
+  The name of this new function is ```writer```.
 - Also added function to print output with typewriter effect.
   In a way that it deletes some part of the text to some index and prints another text to replace the previous text.
+  And name of my most recent and favourite function is ```typewwriter```.
 
 
 ### v0.1.1 (21/04/2023)
@@ -87,7 +98,7 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[MIT](https://github.com/amarquaye/pywriter/blob/master/LICENSE)
+[AGPL v3.0](https://github.com/amarquaye/pywriter/blob/master/LICENSE)
 
 
 ## Authors
