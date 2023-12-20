@@ -1,5 +1,11 @@
 # Pywriter
 
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Badge](https://img.shields.io/badge/python-3.x-color.svg)](#)
+[![PyPI](https://img.shields.io/pypi/v/your-package-name.svg)](https://pypi.org/project/your-package-name/)
+[![Downloads](https://static.pepy.tech/badge/pywriter)](https://pepy.tech/project/pywriter)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amarquaye/pywriter)
+
 Pywriter is a Python module for printing text to your console or terminal in the classic typewriter effect.
 
 ## Installation
