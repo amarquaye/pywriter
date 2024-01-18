@@ -6,7 +6,7 @@
 import sys
 import time
 
-def write(text, rate:float | None = 0.1):
+def write(text, rate:float | None = 0.035):
     """Function to print output with typewriter effect
     
     >>> For instance:
@@ -22,7 +22,7 @@ def write(text, rate:float | None = 0.1):
     print()
 
 
-def writer(text, rate:float | None = 0.1):
+def writer(text, rate:float | None = 0.035):
     """Function to print output with typewriter effect in reverse.
     
     >>> For instance:
@@ -40,7 +40,7 @@ def writer(text, rate:float | None = 0.1):
     print()
 
 
-def typewriter(text, new, rate: float | None = 0.1, idx=None):
+def typewriter(text, new, rate: float | None = 0.035, idx=None):
     """Function to print output with typewriter effect.
        Deletes some part of the text to some index and prints another text to replace the previous text.
     
