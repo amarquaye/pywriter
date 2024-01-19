@@ -1,0 +1,25 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [1.0.0] - 2023-06-29
+
+### Added
+
+- Added function to print output with typewriter effect in reverse. The name of this new function is writer.
+- Also added function to print output with typewriter effect. In a way that it deletes some part of the text to some index and prints another text to replace the previous text. And name of my most recent and favourite function is typewwriter
+
+## [0.1.1] - 2023-04-21
+
+### Added
+
+- Added compatibility with terminal and any console.
+
+### Fix
+
+- Fixed issue with windows cmd waiting for the entire program to run before output in seen.
