@@ -19,19 +19,20 @@ pip install pywriter
 ## Usage
 
 ```python
-import pywriter
+import pywriter as pw
+
 
 # returns 'Hello World!' character by character at the rate of one character per second
-pywriter.write('Hello World!', rate=1)
+pw.write('Hello World!', rate=1)
 
 # Let's introduce my latest features
-pywriter.writer('Hello World!', rate=1)
-pywriter.typewriter('Hello World!', new="Jesse", idx=6, rate=1)
+pw.writer('Hello World!', rate=1)
+pw.typewriter('Hello World!', new="Jesse", idx=6, rate=1)
 
 
 
 # You can decide to exclude the rate argument.
-# That will print out your text at the default rate of 0.1
+# That will print out your text at the default rate of 0.035
 
 ```
 
@@ -39,6 +40,7 @@ pywriter.typewriter('Hello World!', new="Jesse", idx=6, rate=1)
 
 ```python
 from pywriter import write, writer, typewriter
+
 
 # returns 'Hello World!' character by character at the rate of one character per second
 write('Hello World!', rate=1)
@@ -74,7 +76,7 @@ to discuss what you would like to change.
 
 ## Roadmap
 
-- Add more integrations.
+- Adding more features soon.
 
 ## About Me
 
@@ -84,8 +86,8 @@ to discuss what you would like to change.
 
 <h2 align="left">Connect with me:</h2>
 <p align="left">
-<a href="https://twitter.com/llordjesse" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="llordjesse" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/amarquaye" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="amarquaye" height="30" width="40" /></a>
+<a href="https://twitter.com/llordjesse" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="llordjesse" height="30" width="40" /></a>
 <a href="https://fb.com/llordjesse" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="llordjesse" height="30" width="40" /></a>
 <a href="https://instagram.com/llordjesse" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="llordjesse" height="30" width="40" /></a>
 </p>
