@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pywriter"
+version = "1.1.0"
+authors = [
+    {name = "Jesse Amarquaye", email = "engineeramarquaye@gmail.com"},
+]
+requires-python = ">=3.3"
+maintainers = [
+  {name = "Jesse Amarquaye", email = "engineeramarquaye@gmail.com"}
+]
+description = "Typewriter effect for python."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["python", "pywriter", "type", "writer", "typewriter", "typewriter effect", "typewriter animation"]
+classifiers=[
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Environment :: Console",
+    "Topic :: Printing",
+    "Topic :: Text Processing",
+    "Topic :: Terminals",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/amarquaye/pywriter"
+Documentation = "https://amarquaye.github.io/pywriter/"
+Repository = "https://github.com/amarquaye/pywriter.git"
+"Bug Tracker" = "https://github.com/amarquaye/pywriter/issues"
+Changelog = "https://github.com/amarquaye/pywriter/blob/master/CHANGELOG"
+
+[project.scripts]
+pywriter = "pywriter.__main__:get_version"
