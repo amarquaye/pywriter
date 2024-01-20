@@ -82,7 +82,7 @@ to discuss what you would like to change.
 
 - 👨‍💻 All of my projects are available at [https://www.github.com/amarquaye](https://www.github.com/amarquaye).
 
-- 📫 How to reach me via [mail](mailto:engineeramarquaye@gmail.com).
+- 📫 You can reach me via [mail](mailto:engineeramarquaye@gmail.com).
 
 <h2 align="left">Connect with me:</h2>
 <p align="left">
