@@ -4,7 +4,7 @@ Developed by Jesse Amarquaye.
 Copyright(C) 2023 Jesse Amarquaye.
 """
 
-
+from argparse import ArgumentParser, Namespace
 from importlib.metadata import version
 import sys
 import time
@@ -26,6 +26,7 @@ def write(text, rate: Union[float, None] = 0.035):
         time.sleep(rate)
     print()
 
+
 def writer(text, rate: Union[float, None] = 0.035):
     """Function to print output with typewriter effect in reverse.
     
@@ -42,6 +43,7 @@ def writer(text, rate: Union[float, None] = 0.035):
         sys.stdout.flush()
         time.sleep(rate)
     print()
+
 
 def typewriter(text, new, rate: Union[float, None] = 0.035, idx=None):
     """Function to print output with typewriter effect.
@@ -73,13 +75,8 @@ def typewriter(text, new, rate: Union[float, None] = 0.035, idx=None):
     
 ########################### Miscellaneous functions ###########################
 
-def get_version():
-    """Display the version of pywriter"""
-    try:
-        if sys.argv[1] == "--version" or sys.argv[1] == "-v":
-            print(version('pywriter'))
-    except Exception as e:
-        write("""
+def display_info():
+    write("""
     pywriter - A command-line writing tool.
 
     Written by Jesse Amarquaye.
@@ -95,4 +92,31 @@ def get_version():
     Connect with the Author:
     - LinkedIn: https://www.linkedin.com/in/amarquaye
     - Twitter: https://twitter.com/llordjesse
-""")  
+""", rate=0.01)  
+
+
+def get_version():
+    """Display the version of pywriter"""
+    parser = ArgumentParser(
+                    prog='pywriter',
+                    description='A command-line writing tool.',
+                    epilog='Created by Jesse Amarquaye.')
+    
+    parser.add_argument("-v", "--version", 
+                        help="Display the version of pywriter.",
+                        action="store_true")
+    parser.add_argument("-i", "--info",
+                        help="Display information about pywriter.",
+                        action="store_true")                                                                                                                                                                                                                
+    
+    args: Namespace = parser.parse_args()
+    
+    if args.version:
+        write(version('pywriter'))
+        
+    elif args.info:
+        display_info()
+        
+    else:
+        display_info()
+        
