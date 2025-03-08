@@ -1,3 +1,3 @@
-from .__main__ import write, writer, typewriter 
-     
-__all__ = ['write', 'writer', 'typewriter']
+from .__main__ import write, reverse, typewriter
+
+__all__ = ["write", "reverse", "typewriter"]

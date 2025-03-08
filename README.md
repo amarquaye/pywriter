@@ -6,7 +6,7 @@
 [![Downloads](https://static.pepy.tech/badge/pywriter)](https://pepy.tech/project/pywriter)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amarquaye/pywriter)
 
-Pywriter is a Python module for printing text to your console or terminal in the classic typewriter effect.
+Pywriter is a Python module for printing text to your console or terminal in the classic _typewriter effect_.
 
 ## Installation
 
@@ -26,27 +26,27 @@ import pywriter as pw
 pw.write('Hello World!', rate=1)
 
 # Let's introduce my latest features
-pw.writer('Hello World!', rate=1)
+pw.reverse('Hello World!', rate=1)
 pw.typewriter('Hello World!', new="Jesse", idx=6, rate=1)
 
 
 
 # You can decide to exclude the rate argument.
-# That will print out your text at the default rate of 0.035
+# That will print out your text at the default rate of 0.01
 
 ```
 
 ## Alternate Usage
 
 ```python
-from pywriter import write, writer, typewriter
+from pywriter import write, reverse, typewriter
 
 
 # returns 'Hello World!' character by character at the rate of one character per second
 write('Hello World!', rate=1)
 
 # Let's introduce my latest features
-writer('Hello World!', rate=1)
+reverse('Hello World!', rate=1)
 typewriter('Hello World!', new="Jesse", idx=6, rate=1)
 
 
@@ -82,16 +82,17 @@ to discuss what you would like to change.
 
 - 👨‍💻 All of my projects are available at [https://www.github.com/amarquaye](https://www.github.com/amarquaye).
 
-- 📫 You can reach me via [mail](mailto:engineeramarquaye@gmail.com).
+- 📫 You can [reach me via mail](mailto:engineeramarquaye@gmail.com).
 
 <h2 align="left">Connect with me:</h2>
 <p align="left">
-<a href="https://linkedin.com/in/amarquaye" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="amarquaye" height="30" width="40" /></a>
-<a href="https://twitter.com/llordjesse" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="llordjesse" height="30" width="40" /></a>
-<a href="https://fb.com/llordjesse" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="llordjesse" height="30" width="40" /></a>
-<a href="https://instagram.com/llordjesse" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="llordjesse" height="30" width="40" /></a>
-</p>
+<a href="https://linkedin.com/in/amarquaye" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Connect on linkedin" height="30" width="40" /></a>
+<a href="https://www.reddit.com/user/amarquaye/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/reddit.svg" alt="Connect on reddit" height="30" width="40" /></a>
 
 ## Feedback
 
-If you have any feedback, please reach out to [me](mailto:engineeramarquaye@gmail.com).
+If you have any feedback, please [reach out to me](mailto:engineeramarquaye@gmail.com).
+
+## Disclaimer
+
+Pywriter is provided as-is and does not require frequent updates. While it remains functional and usable, future updates will be made only if necessary. If you find the project useful but notice a lack of recent activity, this **does not mean it is abandoned**. Contributions are welcome via pull requests.

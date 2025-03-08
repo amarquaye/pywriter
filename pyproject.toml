@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools", "setuptools-scm", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [project]
 name = "pywriter"
-version = "1.1.0"
+version = "2.0.0"
 authors = [
     {name = "Jesse Amarquaye", email = "engineeramarquaye@gmail.com"},
 ]
@@ -15,7 +15,7 @@ maintainers = [
 description = "Typewriter effect for python."
 readme = "README.md"
 license = {file = "LICENSE"}
-keywords = ["python", "pywriter", "type", "writer", "typewriter", "typewriter effect", "typewriter animation"]
+keywords = ["python", "pywriter", "type", "writer", "typewriter", "typewriter effect", "typewriter animation", "animation"]
 classifiers=[
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
@@ -30,9 +30,9 @@ classifiers=[
 
 [project.urls]
 Homepage = "https://github.com/amarquaye/pywriter"
+Issues = "https://github.com/amarquaye/pywriter/issues"
 Documentation = "https://amarquaye.github.io/pywriter/"
 Repository = "https://github.com/amarquaye/pywriter.git"
-"Bug Tracker" = "https://github.com/amarquaye/pywriter/issues"
 Changelog = "https://github.com/amarquaye/pywriter/blob/master/CHANGELOG"
 
 [project.scripts]
